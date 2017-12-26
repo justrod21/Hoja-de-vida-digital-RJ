@@ -28,7 +28,6 @@
     </svg>
     <h1>HOJA DE VIDA</h1>
    </header>
-   
     <h2>Datos Personales</h2>
     <h3>Nombres: Roderick Reinier</h3>
     <h3>Apellidos: Justiniani Rodríguez</h3>
@@ -41,6 +40,51 @@
     <a href="experiencia.html">Experiencia</a>
     </br>
     </br>
+    <h2>Educación</h2>
+     <table border="1">
+      <thead> 
+       <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td>2015</td>
+        <td>Univesidad Tecnológica de Panamá</td>
+        <td>Arraiján</td>
+        <td>Sí</td>
+       </tr>
+       <tr>
+        <td>2017</td>
+        <td>Next Univesity</td>
+        <td>Online</td>
+        <td>Not yet</td>
+       </tr>
+      </tbody>
+     </table>
+    <h3>Agregar Estudios</h3>
+    <form autocomplete="on" name="Formulario agregar educación">
+      <lable for="Año"><strong>Año</strong></lable>
+      <select>
+       <option>2017</option>
+       <option>2016</option>
+       <option>2015</option>
+      </select>
+      </br>
+      <lable for="Instituacion"><strong>Institución:</strong></lable>
+      <input type="text" id="Institucion" required>
+      </br>
+      <lable for="Lugar"><strong>Lugar: </strong></lable>
+      <textarea name="Lugar" row="2" cols="30"></textarea>
+      </br>
+      <lable for="culmino"><strong>¿Culminó?</strong></lable>
+      <input type="radio" name="culmino" value="si">Sí
+      <input type="radio" name="culmino" value="no">No</br>
+      <input type="submit" value="Enviar">
+    </form> 
 </body>
   <footer>
    <p><strong>Información de contacto </strong> email: rjustiniani21@gmail.com</p>
